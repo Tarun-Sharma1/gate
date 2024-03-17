@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin-top: 0;
+   height: 3.5rem;
+    position: fixed;
+    top:0;
+    background-color: white;
+    width: 100%;
+   border-bottom: solid 1px #0d0d0d25;
+ }
+
+.navbar>p{
+    font-size: 1.25rem;
+    padding: 1rem;
+    letter-spacing: 0.00938em;
+}
+
+.left>p {
+    margin: 8px 0px 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 0.2rem;
+
+}
+
+.first, .second{
+    display: flex;
+    width: 97%;
+    
+    justify-content: center;
+    align-self: center;
+}
+
+.left{
+    width: 70%;
+   
+}
+
+.right{
+    width: 30%;
+    
+}
+
+.main{
+    width: 100%;
+    margin-top: 1.1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+  
+    
+}
+
+.left>div, .outof100>#marks,.outof100>#marks>div>div, .outof100>div {
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+   padding: 0.5rem;
+  
+   margin: 0px;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+   line-height: 1.5;
+   letter-spacing: 0.00938em;
+   color: rgb(0, 66, 80);
+   border: 1px solid;
+   border-radius: 4px;
+   font-weight: 700;
+   font-size: 14px;
+   display: block;
+   padding: 7px !important;
+}
+
+.right{
+    display: flex;
+  
+    padding: 2rem;
+    flex-direction: column;
+    
+}
+.right>div{
+    width: 200px;
+}
+
+.photo>img{
+    width: 200px;
+    border-color:solid rgb(0, 66, 80);
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+}
+
+.photo>figcaption,.sign>figcaption{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 4px;
+    margin-bottom: 2.5rem;
+
+}
+
+.sign>img{
+    width: 200px;
+    border-color:solid rgb(0, 66, 80);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.outof100{
+   display: flex;
+   width: 90%;
+   justify-content: space-between;
+   
+   margin-top: 2.5rem;
+}
+
+
+
+.outof100>#marks{
+    width: 37%;
+    display: flex;
+
+}
+
+.outof100>p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(0, 66, 80);
+    
+}
+
+.category>p{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+    padding: 4px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.category>div{
+    text-align: center;
+}
+
+
+#marks{
+    position: absolute;
+  
+    right: 37.4%;
+
+}
+#second-right{
+   margin-left: 1.5rem;
+    width: 40%;
+    padding: 0;
+    padding-top: 0.35rem;
+}
+
+#second-right>.outof100>div{
+    width: 30%;
+}
+
+.note{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: italic;
+    width: 95%;
+   margin-left: 1rem;
+
+}
+
+
+a{
+    font-size: 1rem;
+    line-height: 1.75;
+    letter-spacing: 0.00938em;
+    font-weight: 700;
+    margin-left: 1rem;
+    
+}
+
+.footer{
+    margin-top: 2rem;
+    border: solid 1px #0d0d0d25;
+    padding: 0.75rem;
+    position: relative;
+    height: 3.5rem;
+   
+}
+
+button{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 3px 9px;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: 1px solid rgba(190, 161, 80, 0.5);
+    color: rgb(190, 161, 80);
+    margin: 4px;
+    position: absolute;
+    top: 50%; /* Vertical centering trick */
+    transform: translateY(-50%); /* Additional centering adjustment */
+    right:0.5rem;
+    height: 2rem;
+    
+}
